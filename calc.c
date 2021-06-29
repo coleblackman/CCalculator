@@ -1,17 +1,11 @@
 #include <stdio.h>
-<<<<<<< HEAD
-=======
 #include <stdlib.h>
->>>>>>> Implemented all functionality
 #include <string.h>
 
 #define BUFFERLEN 100 
 
-<<<<<<< HEAD
-=======
 long int powe (int base, int exponent);
 
->>>>>>> Implemented all functionality
 int main(void)    
 {
     char expression [BUFFERLEN];
@@ -39,12 +33,6 @@ int main(void)
     printf("\nSecond Expression: %s", thirdPart);
 
 
-<<<<<<< HEAD
-    printf("Press <return>\n");
-    getc(stdin);
-    return 0;
-}
-=======
     // Convert to appropriate datatype
     
     char *end;
@@ -86,4 +74,3 @@ long int powe (int base, int exponent)
     return ret;
 }
 
->>>>>>> Implemented all functionality
